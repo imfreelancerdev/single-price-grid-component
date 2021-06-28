@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --cyan-light: hsl(179, 62%, 53%);
+    --bright-Yellow: hsl(71, 73%, 54%);
+    --light-Gray: hsl(204, 43%, 93%);
+    --grayish-Blue: hsl(218, 22%, 67%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background: var(--light-Gray);
+    color: #fff;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.bg-primary {
+    background: var(--cyan);
+}
+
+.bg-secondary {
+    background: var(--bright-Yellow);
+}
+
+.bg-primary-light {
+    background: var(--cyan-light);
+}
+
+.txt-white {
+    color: #fff;
+}
+
+.txt-primary {
+    color: var(--cyan);
+}
+
+.txt-secondary {
+    color: var(--bright-Yellow);
+}
+
+.txt-primary-light {
+    color: var(--cyan-light);
+}
+
+.txt-gray {
+    color: var(--grayish-Blue)
+}
+
+.txt-light-gray {
+    color: var(--light-Gray)
+}
+
+.card {
+    padding: 25px 20px;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1.2em;
+}
+
+.subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: .6em;
+}
+
+.description {
+    font-size: 13px;
+    line-height: 1.8em;
+    padding-bottom: .5em;
+}
+
+.billing {
+    font-size: 15px;
+    color: hsla(255, 100%, 100%, 0.5);
+    margin-bottom: 0.5em;
+}
+
+.price {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.container {
+    margin: 0 20px;
+    margin-top: 3em;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.txt-normal {
+    font-size: 15px;
+}
+
+.btn-signup {
+    margin-top: 1em;
+    padding: 13px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    box-shadow: 0 0px 4px var(--grayish-Blue);
+}
+
+.w-8 {
+    padding-top: 6px;
+    width: 75%;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 32px auto;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
